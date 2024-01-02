@@ -1,0 +1,14 @@
+{
+  "name": "istts_logo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass istts_logo.sass istts_logo.css"
+  },
+  "author": "Smankusors (Antony K. S.)",
+  "license": "Unlicense",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
