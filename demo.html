@@ -1,9 +1,18 @@
 <html>
   <head>
     <link rel="stylesheet" href="istts_logo.css" />
+    <script>
+      function toggleAnimation() {
+        if (logo.className.includes("animate")) {
+          logo.classList.remove("animate");
+        } else {
+          logo.classList.add("animate");
+        }
+      }
+    </script>
   </head>
   <body>
-    <div class="logo">
+    <div id="logo" class="istts-logo">
       <div class="lingkaran-atom">
         <div class="lingkaran"></div>
         <div class="atom"></div>
@@ -23,5 +32,6 @@
         <div class="de-y"></div>
       </div>
     </div>
+    <button onclick="toggleAnimation()">Toggle Animation</button>
   </body>
 </html>

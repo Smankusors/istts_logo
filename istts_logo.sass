@@ -6,7 +6,7 @@ $tinggi-lingkaran: 0.3
 $durasi-lingkaran: 1.2s
 $logo-border-size: math.div(3px, 128px) * $logo-size
 
-.logo
+.istts-logo
     width: $logo-size
     height: $logo-size
     position: relative
@@ -107,7 +107,7 @@ $logo-border-size: math.div(3px, 128px) * $logo-size
     100%
         transform: rotateZ(360deg)
 
-.logo.anim
+.istts-logo.animate
     //animation: stts-muter $durasi-lingkaran * 5 linear infinite
     .lingkaran-atom
         .atom
@@ -115,7 +115,7 @@ $logo-border-size: math.div(3px, 128px) * $logo-size
         .atom::after
             animation-play-state: running
 
-.logo.progress
+.istts-logo.progress
     position: absolute
     top: 50%
     left: 50%
